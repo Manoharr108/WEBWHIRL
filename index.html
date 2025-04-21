@@ -44,7 +44,7 @@ https://templatemo.com/tm-586-scholar
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-12">
           <nav class="main-nav">
@@ -53,12 +53,6 @@ https://templatemo.com/tm-586-scholar
               <h1>WebWhirl</h1>
             </a>
             <!-- ***** Logo End ***** -->
-            
-            <!-- ***** Phone Number Start ***** -->
-            <!-- <div class="phone-number" style="font-size: 17px; font-weight: bold; color: #e2d9d9; margin-left: 20px; min-width: 25px;">
-              <span>+44 7498 589019</span>
-            </div> -->
-            <!-- ***** Phone Number End ***** -->
   
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
@@ -72,10 +66,45 @@ https://templatemo.com/tm-586-scholar
             </a>
             <!-- ***** Menu End ***** -->
           </nav>
+  
+          <!-- ***** Marquee Start ***** -->
+          <div class="custom-marquee">
+            <div class="marquee-content">
+              🚀 Now accepting new projects for this month • 💡 Book your free consultation today • 🌐 WebWhirl - Websites that make an impact!
+            </div>
+          </div>
+          <!-- ***** Marquee End ***** -->
+  
         </div>
       </div>
     </div>
   </header>
+  
+  <style>
+  .custom-marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    background: #000;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 8px 0;
+    font-size: 15px;
+    /* margin-top: 5px; */
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll-marquee 15s linear infinite;
+  }
+  
+  @keyframes scroll-marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+  }
+  </style>
+  
   
   <!-- ***** Header Area End ***** -->
 
